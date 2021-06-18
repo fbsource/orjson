@@ -148,7 +148,7 @@ dependencies = [
  "pyo3",
  "ryu",
  "serde",
- "serde_json",
+ "serde_orjson",
  "smallvec",
 ]
 
@@ -226,7 +226,7 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "ec7505abeacaec74ae4778d9d9328fe5a5d04253220a85c4ee022239fc996d03"
 
 [[package]]
-name = "serde_json"
+name = "serde_orjson"
 version = "1.0.53"
 dependencies = [
  "itoa",
